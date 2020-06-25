@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11050A8A24A4304C00D4FE90 /* CollectionAlbumCoverItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11050A8924A4304C00D4FE90 /* CollectionAlbumCoverItem.swift */; };
+		116DE53B24A4260800D4CAF4 /* Tayrics-Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 116DE53A24A4260800D4CAF4 /* Tayrics-Data.json */; };
+		116DE53E24A4264100D4CAF4 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DE53D24A4264100D4CAF4 /* Album.swift */; };
+		116DE54024A426B800D4CAF4 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DE53F24A426B800D4CAF4 /* Song.swift */; };
+		116DE54224A4273700D4CAF4 /* MediaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116DE54124A4273700D4CAF4 /* MediaService.swift */; };
 		11E22D4724A2B9BA00D262E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E22D4624A2B9BA00D262E1 /* AppDelegate.swift */; };
 		11E22D4924A2B9BA00D262E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E22D4824A2B9BA00D262E1 /* SceneDelegate.swift */; };
-		11E22D4B24A2B9BA00D262E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E22D4A24A2B9BA00D262E1 /* ViewController.swift */; };
 		11E22D4E24A2B9BA00D262E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E22D4C24A2B9BA00D262E1 /* Main.storyboard */; };
 		11E22D5024A2B9BB00D262E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E22D4F24A2B9BB00D262E1 /* Assets.xcassets */; };
 		11E22D5324A2B9BB00D262E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E22D5124A2B9BB00D262E1 /* LaunchScreen.storyboard */; };
+		11E22D5E24A2BA4700D262E1 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E22D5D24A2BA4700D262E1 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11050A8924A4304C00D4FE90 /* CollectionAlbumCoverItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionAlbumCoverItem.swift; sourceTree = "<group>"; };
+		116DE53A24A4260800D4CAF4 /* Tayrics-Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Tayrics-Data.json"; sourceTree = "<group>"; };
+		116DE53D24A4264100D4CAF4 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		116DE53F24A426B800D4CAF4 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		116DE54124A4273700D4CAF4 /* MediaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaService.swift; sourceTree = "<group>"; };
 		11E22D4324A2B9BA00D262E1 /* Tayrics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tayrics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E22D4624A2B9BA00D262E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11E22D4824A2B9BA00D262E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11E22D4A24A2B9BA00D262E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11E22D4D24A2B9BA00D262E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11E22D4F24A2B9BB00D262E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11E22D5224A2B9BB00D262E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11E22D5424A2B9BB00D262E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E22D5D24A2BA4700D262E1 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		116DE53C24A4262E00D4CAF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				116DE54124A4273700D4CAF4 /* MediaService.swift */,
+				116DE53D24A4264100D4CAF4 /* Album.swift */,
+				116DE53F24A426B800D4CAF4 /* Song.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		11E22D3A24A2B9BA00D262E1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +78,24 @@
 			children = (
 				11E22D4624A2B9BA00D262E1 /* AppDelegate.swift */,
 				11E22D4824A2B9BA00D262E1 /* SceneDelegate.swift */,
-				11E22D4A24A2B9BA00D262E1 /* ViewController.swift */,
+				116DE53C24A4262E00D4CAF4 /* Model */,
+				11E22D5A24A2B9FE00D262E1 /* Collection */,
 				11E22D4C24A2B9BA00D262E1 /* Main.storyboard */,
 				11E22D4F24A2B9BB00D262E1 /* Assets.xcassets */,
 				11E22D5124A2B9BB00D262E1 /* LaunchScreen.storyboard */,
 				11E22D5424A2B9BB00D262E1 /* Info.plist */,
+				116DE53A24A4260800D4CAF4 /* Tayrics-Data.json */,
 			);
 			path = Tayrics;
+			sourceTree = "<group>";
+		};
+		11E22D5A24A2B9FE00D262E1 /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				11E22D5D24A2BA4700D262E1 /* CollectionViewController.swift */,
+				11050A8924A4304C00D4FE90 /* CollectionAlbumCoverItem.swift */,
+			);
+			path = Collection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +158,7 @@
 				11E22D5324A2B9BB00D262E1 /* LaunchScreen.storyboard in Resources */,
 				11E22D5024A2B9BB00D262E1 /* Assets.xcassets in Resources */,
 				11E22D4E24A2B9BA00D262E1 /* Main.storyboard in Resources */,
+				116DE53B24A4260800D4CAF4 /* Tayrics-Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11E22D4B24A2B9BA00D262E1 /* ViewController.swift in Sources */,
+				116DE54224A4273700D4CAF4 /* MediaService.swift in Sources */,
+				11050A8A24A4304C00D4FE90 /* CollectionAlbumCoverItem.swift in Sources */,
+				11E22D5E24A2BA4700D262E1 /* CollectionViewController.swift in Sources */,
 				11E22D4724A2B9BA00D262E1 /* AppDelegate.swift in Sources */,
 				11E22D4924A2B9BA00D262E1 /* SceneDelegate.swift in Sources */,
+				116DE53E24A4264100D4CAF4 /* Album.swift in Sources */,
+				116DE54024A426B800D4CAF4 /* Song.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6TTA6H999;
 				INFOPLIST_FILE = Tayrics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6TTA6H999;
 				INFOPLIST_FILE = Tayrics/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
